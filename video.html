@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projektni 3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(220, 170, 255);
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: rgb(53, 53, 53);
+        }
+
+        .topnav a {
+            float: left;
+            color: #747474;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #5856d69d;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #5856D6;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="index.html">Naslovnica</a>
+        <a href="predavanja.html">Predavanja</a>
+        <a href="vjezbe.html">Vjezbe</a>
+        <a class="active" href="video.html">Video</a>
+    </div>
+
+    <div style="padding-left:16px">
+        <h1>Video</h1>
+        <br>
+        <br>
+        <video width="320" height="240" controls muted>
+            <source src="video/dm1.mp4" type="video/mp4">
+            <source src="video/dm1.mp4" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+</body>
+</html>
